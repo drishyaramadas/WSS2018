@@ -1,0 +1,99 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      2994,         91]
+NotebookOptionsPosition[      2236,         68]
+NotebookOutlinePosition[      2578,         83]
+CellTagsIndexPosition[      2535,         80]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Genetic Algorithm Framework Project", "Title",
+ CellChangeTimes->{{3.7392733650951147`*^9, 
+  3.7392734054971714`*^9}},ExpressionUUID->"c62c2904-095d-43ba-827c-\
+f3a80a9ca35b"],
+
+Cell[CellGroupData[{
+
+Cell["Description", "Section",
+ CellChangeTimes->{{3.739273409197177*^9, 
+  3.7392734111871796`*^9}},ExpressionUUID->"d695aac5-c745-430d-b86c-\
+91daad403269"],
+
+Cell["\<\
+The goal of the project is to implement a genetic algorithm framework in the \
+Wolfram Language that can handle a great variety of objects. Genetic \
+algorithms search for approximate solutions to problems that are hard to \
+handle algorithmically by imitating the mechanisms of evolution. The \
+GeneticAlgorithm function has to be provided with a list of real numbers to \
+be optimized and the fitness function that quantifies how well an element of \
+the population performs on the given task. The real numbers given to the \
+algorithm can represent properties of any types of objects e.g. coordinates \
+of the points of a triangle, and it\[CloseCurlyQuote]s the fitness function \
+that specifies the way these numbers are interpreted.\
+\>", "Text",
+ CellChangeTimes->{
+  3.7392733905451508`*^9},ExpressionUUID->"048572bd-8b1d-4733-987b-\
+9317fc73e06c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Author", "Section",
+ CellChangeTimes->{{3.7392734177071886`*^9, 
+  3.7392734185371895`*^9}},ExpressionUUID->"f6ffb0bc-c2b5-46a1-8b7c-\
+f85c8a523d00"],
+
+Cell["\<\
+M\[AAcute]t\[EAcute] Csigi
+csimate5@gmail.com\
+\>", "Text",
+ CellChangeTimes->{{3.739273422277195*^9, 
+  3.7392734334572105`*^9}},ExpressionUUID->"75a32ae0-7da5-4349-8335-\
+5ec274ddb833"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{934, 710},
+WindowMargins->{{Automatic, 156}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 7, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 182, 3, 96, "Title",ExpressionUUID->"c62c2904-095d-43ba-827c-f3a80a9ca35b"],
+Cell[CellGroupData[{
+Cell[790, 29, 158, 3, 67, "Section",ExpressionUUID->"d695aac5-c745-430d-b86c-91daad403269"],
+Cell[951, 34, 865, 14, 144, "Text",ExpressionUUID->"048572bd-8b1d-4733-987b-9317fc73e06c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1853, 53, 155, 3, 67, "Section",ExpressionUUID->"f6ffb0bc-c2b5-46a1-8b7c-f85c8a523d00"],
+Cell[2011, 58, 197, 6, 56, "Text",ExpressionUUID->"75a32ae0-7da5-4349-8335-5ec274ddb833"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
