@@ -5,8 +5,8 @@ BeginPackage["GeneticAlgorithm`"]
 GeneticAlgorithm::usage =
         "Evolves a population based on the initial object optimizing the fitness function."
 
-populationSize = 10;
-numberOfGenerations = 100;
+populationSize = 3;
+numberOfGenerations = 10;
 
 (* List of reals *)
 (* ------------------ *)
